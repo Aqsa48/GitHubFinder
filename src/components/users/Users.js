@@ -3,8 +3,8 @@ import UserItem from './UserItem'
 import Spinner from '../layouts/spinner'
 import PropsType from 'prop-types';
 
-const Users = ({ user, load }) => {
-    if (load) {
+const Users = ({ user, loading }) => {
+    if (loading) {
         return < Spinner />
     } else {
         return (
