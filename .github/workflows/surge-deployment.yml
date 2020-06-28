@@ -33,11 +33,9 @@ jobs:
     - name: Build React App
       run: yarn build
       
-    - name: creating axios package
-    - run : yarn add axios 
       
     - name: Install Surge
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./build GitHubFinder.surge.sh --token ${{ secrets.Surge_Token }}
+      run: surge ./build Aqsa.surge.sh --token ${{ secrets.Surge_Token }}
