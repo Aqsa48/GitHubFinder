@@ -5,6 +5,12 @@
 /.pnp
 .pnp.js
 
+
+/.yarn_cache
+/.bundle
+/bower_components
+
+
 # testing
 /coverage
 
